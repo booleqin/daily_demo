@@ -4,7 +4,7 @@ iOS对系统调用的限制很严格，对于非越狱的手机，我们能做�
 
 主要结构如下（需要在iphone上开通信息转发）：
 
-<img src="./dat/process_structure.png" width = "300" height = "200" alt="message转发流程" align=center />
+<img src="./dat/process_structure.png" width = "500" height = "400" alt="message转发流程" align=center />
 
 运行（可以拉去message到dat中的 uplink_msg.json（或数据库））
 
@@ -18,5 +18,5 @@ iOS对系统调用的限制很严格，对于非越狱的手机，我们能做�
 
     python load_msg.py
 
-** 注：这种方式建议只用于测试环境，生产环境下很多性能都难以保证。**
+**注：这种方式建议只用于测试环境，生产环境下很多性能都难以保证。**
 
